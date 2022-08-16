@@ -1,0 +1,947 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Amiri', serif;
+    font-family: 'Mirza', cursive;
+}
+
+/* Header Section */
+
+.header {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #fdf1e1;
+}
+
+nav {
+    background-color: #302c3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .65em .96em;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 1.5em .75em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Mirza', cursive;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links ul li a:hover {
+    color: #db4517;
+    transition: .4s;
+}
+
+.logo {
+    width: 300px;
+    position: absolute;
+    right: .3%;
+    top: .5em;
+}
+
+
+.intro-text {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro h1 {
+    max-width: 80%;
+    margin: auto;
+    color: #db4517;
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: right;
+    text-align: right;
+    font-family: 'Scheherazade New', serif;
+}
+
+.intro p {
+    width: 75%;
+    margin: auto;
+    color: #0b2644;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Mirza', cursive;
+    text-align: right;
+    line-height: 1.5;
+    padding-top: .7em;
+}
+
+.pics {
+    width: 50%;
+    padding-left: 3em;
+    margin: auto;
+}
+
+.pics img {
+    max-width: 80%;
+    border-radius: 1.2em;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #db4517;
+    border: 3px solid #302c3e;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: white;
+    position: relative;
+    margin-top: 1.87em;
+    padding: .3em .58em .2em .58em;
+    border-radius: .43em;
+    cursor: pointer;
+    font-family: 'Amiri', serif;
+
+}
+
+.hero-btn:hover {
+    background: transparent;
+    transform: scale(1.1);
+    color: white;
+}
+
+/* Courses Section */
+
+.courses {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 9.37em;
+    padding-bottom: 2em;
+}
+
+.courses h1 {
+    color: #db4517;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Mirza', cursive;
+}
+
+.courses h3 {
+    color: #0b2644;
+    font-weight: 300;
+    padding-bottom: 1.5em;
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+}
+
+.another-row {
+    display: flex;
+    justify-content: space-between;
+    border-radius: .62em;
+    margin-bottom: 2.5em;
+    text-align: right;
+}
+
+.row,
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: .62em;
+    margin-bottom: 2.5em;
+    text-align: right;
+}
+
+.row3 {
+    width: 30%;
+    height: 100%;
+}
+
+.row4 {
+    width: 30%;
+    height: 100%;
+}
+
+.row3 img {
+    width: 100%;
+    border-radius: .81em;
+    height: auto;
+}
+
+.row4 img {
+    width: 100%;
+    border-radius: .81em;
+    height: auto;
+}
+
+h4 {
+    padding: .5em 0;
+    color: #db4517;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Scheherazade New', serif;
+}
+
+/* lines */
+hr {
+    border: dotted #E6E6E6 0.75em;
+    border-bottom: none;
+    max-width: 10%;
+    margin: 10em auto;
+}
+
+/* Center Section */
+
+.mo {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 9.4em;
+}
+
+.mo h1 {
+    color: #0b2644;
+    padding: 1.37em 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Amiri', serif;
+}
+
+/* About Me Section */
+
+.about {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 1.87em;
+    padding-bottom: 9.37em;
+    background-color: #fdf1e1;
+    text-align: center;
+}
+
+.about-0 {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: .75em;
+}
+
+.about-0 img {
+    max-width: 50%;
+    border-radius: .75em;
+}
+
+.about-0 p {
+    color: #3377a4;
+    text-align: right;
+    padding: .62em 1.87em;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Mirza', cursive;
+}
+
+.about h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Amiri', serif;
+    padding-bottom: 1.87em;
+    position: relative;
+    color: #db4517;
+}
+
+span {
+    font-size: 1.8rem;
+    color: #0b2644;
+    text-decoration: underline;
+}
+
+.sec-btn {
+    color: #db4517;
+    border: 2px solid #db4517;
+    border-radius: .5em;
+    padding: .5em .62em;
+    font-size: 1.3rem;
+    background: transparent;
+}
+
+.sec-btn:hover {
+    color: #0b2644;
+    transform: scale(1.2);
+    background: transparent;
+}
+
+/* Waiting Email List */
+
+.mail-list {
+    max-width: 97%;
+    margin: auto;
+    padding-top: 9.37em;
+    text-align: center;
+    justify-content: center;
+}
+
+.mail-list h1 {
+    color: #0b2644;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+    font-family: 'Amiri', serif;
+}
+
+.mail-list h4 {
+    color: #db4517;
+    font-family: 'Amiri', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: .00125em 0 2.18em 0;
+}
+
+.mail {
+    max-width: 40%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    border-radius: .62em;
+}
+
+.tbtn {
+    min-width: 80%;
+    height: 2.18em;
+    border: 3px solid #3377a4;
+    border-radius: .37rem;
+    text-align: right;
+    padding: 0 .43em;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.btn {
+    min-width: 15%;
+    border-radius: .37em;
+    margin: 0 .31em;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    border: 2px solid #db4517;
+    background: #0b2644;
+    font-family: 'Amiri', serif;
+}
+
+/* Contact Us Section */
+
+
+.contact-us {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 3.75em;
+    padding-bottom: 4.37em;
+}
+
+.contact-col {
+    flex-basis: 38%;
+    margin-bottom: 5em;
+}
+
+.contact-col div {
+    display: flex;
+    margin-bottom: 2.5em;
+    justify-content: right;
+    align-items: center;
+}
+
+.contact-col div .fa {
+    font-size: 1.8rem;
+    color: #3377a4;
+}
+
+.contact-col div p {
+    padding-right: 3.5em;
+    margin: auto;
+    font-family: 'Amiri', serif;
+}
+
+/*
+.contact-col div h4 {
+    margin-bottom: .31em;
+    font-size: 1.8rem;
+    font-weight: 400;
+    justify-content: space-between;
+}
+*/
+
+.contact-col div h6 {
+    padding: 0;
+    margin: auto;
+    padding-right: 1.5em;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #db4517;
+}
+
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: .93em;
+    margin-bottom: .93em;
+    outline: none;
+    border: 2px solid #3377a4;
+    justify-content: center;
+}
+
+/*
+.wow {
+    display: flex;
+}
+*/
+
+.text-ar {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Amiri', serif;
+    text-align: right;
+}
+
+.btn2 {
+    color: white;
+    background-color: #0b2644;
+    padding: .31em .31em 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: .37em;
+    border: 2px solid #db4517;
+}
+
+/* The End Section */
+
+.end {
+    width: 80%;
+    margin: auto;
+    padding: 0 0 3em;
+}
+
+.f {
+    color: #302c3e;
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.f P {
+    font-family: 'Mirza', cursive;
+    color: #3377a4;
+    font-size: 1.3rem;
+}
+
+.f h1 {
+    font-size: 2rem;
+    font-family: 'Amiri', serif;
+    color: #db4517;
+    padding: .4em 0;
+}
+
+/*---- Footer ---*/
+
+.fo {
+    background-color: #0b2644;
+    padding: 50px 0 20px;
+
+}
+
+.fo p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.social {
+    color: white;
+    text-align: center;
+}
+
+.fa-brands {
+    padding: 0px 07px 20px;
+}
+
+/* Media Query Section */
+
+/* The small Screens */
+
+@media screen and (max-width: 43.75em) {
+
+    .header {
+        min-height: 0;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #0b2644;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        left: -200px;
+        text-align: right;
+        z-index: 2;
+    }
+
+    nav .fa-solid {
+        display: block;
+        font-size: 2.2rem;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .logo {
+        width: calc(2/3 * 300px)
+    }
+
+    .another-row h4 {
+        padding: .2em 0;
+    }
+
+    .intro {
+        display: block;
+        padding-top: 4em;
+    }
+
+    .intro-text {
+        width: 98%;
+    }
+
+    .intro h1 {
+        max-width: 80%;
+        padding-top: 1.5em;
+        margin: auto;
+        font-size: 1.6rem;
+        font-weight: 500;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro P {
+        width: 90%;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .pics {
+        width: 95%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .pics img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .another-row {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row3 {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 4em;
+    }
+
+    .row2 {
+        display: block;
+        padding-bottom: 3.5em;
+    }
+
+    .row4 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3.5em;
+    }
+
+    .row3 img {
+        width: 100%;
+        border-radius: .81em;
+        height: auto;
+    }
+
+    .row4 img {
+        width: 100%;
+        border-radius: .81em;
+        height: auto;
+    }
+
+    .about {
+        padding-bottom: 5em;
+    }
+
+    .about-0 {
+        display: block;
+    }
+
+    .about h1 {
+        padding-bottom: .6em;
+    }
+
+    .about-0 img {
+        max-width: 98%;
+        border-radius: .75em;
+    }
+
+    .about-0 p {
+        padding-top: 1em;
+        padding-bottom: 2.5em;
+    }
+
+    .mail-list {
+        max-width: 80%;
+    }
+
+    .mail {
+        min-width: 90%;
+    }
+
+    .tbtn {
+        padding: 0;
+        min-width: 75%;
+        border: 2px solid #3377a4;
+        font-size: 1em;
+    }
+
+    .btn {
+        min-width: 25%;
+        border: 2px solid #db4517;
+        font-size: 1em;
+    }
+
+    .contact-col div h6 {
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    .contact-col div p {
+        padding-right: 1.8em;
+    }
+
+    .contact-col input,
+    .contact-col textarea {
+        padding: 0;
+    }
+
+    .f P {
+        font-family: 'Mirza', cursive;
+        color: #3377a4;
+        font-size: 1rem;
+    }
+    
+    .f h1 {
+        font-size: 1.8rem;
+        font-family: 'Amiri', serif;
+        color: #db4517;
+        padding: .4em 0;
+    }
+
+}
+
+/* Tablettes Section */
+
+@media (min-width: 44em) and (max-width: 62.5em) {
+
+    .header {
+        min-height: 0;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #0b2644;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        left: -200px;
+        text-align: right;
+        z-index: 2;
+    }
+
+    nav .fa-solid {
+        display: block;
+        font-size: 4.4rem;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .intro {
+        display: block;
+        padding-top: 10em;
+        padding-bottom: 0;
+    }
+
+    .intro-text {
+        width: 98%;
+        padding-top: 6em;
+        padding-bottom: 5em;
+    }
+
+    .intro h1 {
+        max-width: 80%;
+        padding-top: .5em;
+        padding-bottom: .3em;
+        margin: auto;
+        font-size: 2.8rem;
+        font-weight: 700;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .intro P {
+        width: 90%;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .pics {
+        width: 95%;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pics img {
+        max-width: 85%;
+        border-radius: 10px;
+    }
+
+    .courses {
+        width: 70%;
+    }
+
+    .courses h1 {
+        font-size: 3rem;
+    }
+
+    .courses h3,
+    h4 {
+        font-size: 2rem;
+    }
+
+    .courses p {
+        font-size: 1.8rem;
+    }
+
+    .another-row {
+        display: block;
+    }
+
+    .row3 {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 4em;
+    }
+
+    .row2 {
+        display: block;
+        padding-bottom: 3.5em;
+    }
+
+    .row4 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3.5em;
+    }
+
+    .row3 img {
+        width: 100%;
+        border-radius: .81em;
+        height: auto;
+    }
+
+    .row4 img {
+        width: 100%;
+        border-radius: .81em;
+        height: auto;
+    }
+
+    .about {
+        padding-bottom: 5em;
+    }
+
+    .about h1 {
+        padding-bottom: 1em;
+    }
+
+    .about-0 {
+        display: block;
+    }
+
+    .about-0 img {
+        max-width: 98%;
+        border-radius: .75em;
+    }
+
+    .about-0 p {
+        padding-top: 1.3em;
+        padding-bottom: 3em;
+        font-size: 1.8rem;
+    }
+
+    .mail {
+        max-width: 70%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .f P {
+        font-family: 'Mirza', cursive;
+        color: #3377a4;
+        font-size: 1.5rem;
+    }
+    
+    .f h1 {
+        font-size: 2.5rem;
+        font-family: 'Amiri', serif;
+        color: #db4517;
+        padding: .4em 0;
+    }
+
+}
+
+/* Mini Laptops */
+
+@media (min-width: 62.8em) and (max-width: 93.75em) {
+
+    .intro {
+        display: block;
+    }
+
+    .intro h1 {
+        text-align: center;
+    }
+
+    .intro-text {
+        width: 90%;
+        padding-top: 3.5em;
+        padding-bottom: 5rem;
+    }
+
+    .pics {
+        width: 95%;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pics img {
+        max-width: 85%;
+        border-radius: 10px;
+    }
+
+    .about-0 {
+        display: block;
+    }
+
+    .about {
+        padding-bottom: 5em;
+    }
+
+    .about-0 {
+        display: block;
+    }
+
+    .about-0 img {
+        max-width: 98%;
+        border-radius: .75em;
+    }
+
+    .about-0 p {
+        padding: 3em 0;
+        font-size: 1.8rem;
+    }
+
+    .mail {
+        max-width: 70%;
+    }
+
+    .contact-us {
+        max-width: 90%;
+    }
+
+    nav ul a {
+        font-size: 1.5rem;
+    }
+
+    .courses {
+        max-width: 98%;
+    }
+
+    .another-row {
+        width: 100%;
+    }
+
+    .f P {
+        font-family: 'Mirza', cursive;
+        color: #3377a4;
+        font-size: 1.5rem;
+    }
+    
+    .f h1 {
+        font-size: 2.5rem;
+        font-family: 'Amiri', serif;
+        color: #db4517;
+        padding: .4em 0;
+    }
+
+}
